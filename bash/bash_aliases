@@ -17,9 +17,10 @@ export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40
 
 # various ls formats:
 alias ls='ls -F ${colorflag}'
-alias la='ls -AF ${colorflag}'
+alias la='ls -A ${colorflag}'
 alias ld='ls -ld ${colorflag}'
 alias ll='ls -lA ${colorflag}'
+alias lx='ls -l ${colorflag}'
 
 # Stopwatch
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
