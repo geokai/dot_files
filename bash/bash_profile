@@ -29,7 +29,7 @@ fi
 # prefs
 shopt -s histappend;
 HISTCONTROL="erasedups:ignoreboth"
-HISTIGNORE="clear:exit:cd:pwd:ls:la:ll:history"
+HISTIGNORE="clear:exit:cd:pwd:ls:la:ll:lf:lx:history"
 HISTSIZE="1000"
 HISTFILESIZE="2000"
 
