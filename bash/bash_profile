@@ -67,3 +67,6 @@ HISTFILESIZE="2000"
 
 export EDITOR="vim"
 export VISUAL="vim"
+
+# added by Anaconda3 4.3.1 installer
+export PATH="/Users/geomatus3/anaconda/bin:$PATH"

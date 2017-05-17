@@ -11,3 +11,4 @@
     lol = log --oneline --decorate --all --graph
     lop = log --pretty=format:'%h %an %s'
 	rlg = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(yellow)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold red)%d%C(reset)' --all
+	shorty = status --short --branch
