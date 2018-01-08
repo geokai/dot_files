@@ -13,3 +13,4 @@
 _*
 *.pyc
 *.bin
+.ipynb_checkpoints/
